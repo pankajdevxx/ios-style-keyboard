@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract Android project ZIP
         run: |
-          unzip -q ios_style_keyboard_android_only_build.zip -d project-source
+          unzip -q "ios_style_keyboard_android_only_build (1).zip" -d project-source
           test -f project-source/ios_style_keyboard/settings.gradle.kts
 
       - name: Set up JDK 17
